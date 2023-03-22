@@ -73,18 +73,96 @@
   </div>
 
   <footer>
-    <div class="footer bg-[#F39CC6]">
+    <div class="footer flex justify-between items-start bg-[#F39CC6] mt-10 px-20 pt-20 pb-14 font gap-20">
+  
+      <img class="w-[120px] h-[120px] rounded-full" src="../src/assets/images/logo.jpg" alt="" >
       <div>
-        <img class="w-[120px] h-[120px] logo rounded-full" src="../src/assets/images/logo.jpg" alt="" >
-        <h2>CUSTOMER</h2>
-        <ul>
+        <h2 class="font-bold text-5xl tracking-widest ">CUSTOMER</h2>
+        <ul class="font-thin text-xl  tracking-widest ">
           <li>
-            <a href="">SERVICE</a>
+            <a href="#">SERVICE</a>
           </li>
           <li>
-            <a href=""></a>
+            <a href="#">SHIPPING</a>
+          </li>
+          <li>
+            <a href="#">RETURN & EXCHANGE</a>
+          </li>
+          <li>
+            <a href="#">CURRENCY</a>
+          </li>
+          <li>
+            <a href="#">CONVERSIONS</a>
+          </li>
+          <li>
+            <a href="#">SIZE-CHART</a>
+          </li>
+          <li>
+            <a href="#">PRIVACY POLICY</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">CONTACT US</a>
           </li>
         </ul>
+      </div>
+      <div>
+        <h2 class="font-bold text-5xl tracking-widest">INFORMATION</h2>
+        <ul class="font-thin text-xl tracking-widest ">
+          <li>
+            <a href="#">ABOUT STORETS</a>
+          </li>
+          <li>
+            <a href="#">SASTAINABLILITY</a>
+          </li>
+          <li>
+            <a href="#">AMBASSADOR</a>
+          </li>
+          <li>
+            <a href="#">BECOME AN AFFILIATE</a>
+          </li>
+          <li>
+            <a href="#">LOYALTY PROGRAM</a>
+          </li>
+          <li>
+            <a href="#">STORETS APP</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="mt-20">
+        <div class="inline justify-center">
+          <div>
+            <h1 class="tracking-widest font-thin text-xl">GET 10% OFF ON YOUR FIRST PURCHASE</h1>
+          <input class="bg-gradient-to-r from-blue-50 to-blue-200 mt-10 mb-3" id="email" type="email" value="" placeholder="Enter your email" 
+          name="contact[email]" autocorrect="off" autocapitalize="none">
+          </div>
+          <div >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.3" stroke="currentColor" class="w-7 h-7 ml-64">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+          </div>
+
+        </div>
+        <div class=" mt-56 flex  justify-between ">
+          <div>
+            <img src="../src/assets/images/socail-media/facebook.png" alt="" class="socail-img">
+          </div>
+          <div>
+            <img src="../src/assets/images/socail-media/linkedin.png" alt="" class="socail-img">
+          </div>
+          <div>
+            <img src="../src/assets/images/socail-media/twitter.png" alt="" class="socail-img">
+          </div>
+          <div>
+            <img src="../src/assets/images/socail-media/diamond.png" alt="" class="socail-img">
+          </div>
+          <div>
+            <img src="../src/assets/images/socail-media/behance.png" alt="" class="socail-img">
+          </div>
+        </div>
       </div>
     </div>
   </footer>
@@ -112,6 +190,7 @@ export default {
 .font{
   font-family: 'Jost', sans-serif;
 }
+
 nav {
   width: 100%;
   text-align: center;
@@ -131,6 +210,10 @@ nav {
  margin-bottom: 50px;
  box-shadow: 1px 1px 10px #cbced1, -1px -1px 10px #fff;
 }
+.socail-img{
+  width: 40px;
+  height: 40px;
+}
 nav a.router-link-exact-active {
   color: var(--color-text);
 }
@@ -148,7 +231,13 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-
+#email{
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 300px;
+  height: 50px;
+  box-shadow: 1px 1px 7px #cbced1, -1px -1px 7px #fff;
+}
 @media (min-width: 1024px) {
   header {
     display: flex;
