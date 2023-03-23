@@ -77,56 +77,56 @@
   
       <img class="w-[120px] h-[120px] rounded-full" src="../src/assets/images/logo.jpg" alt="" >
       <div>
-        <h2 class="font-bold text-5xl tracking-widest ">CUSTOMER</h2>
+        <h2 class="font-bold text-5xl tracking-widest pb-4 ">CUSTOMER</h2>
         <ul class="font-thin text-xl  tracking-widest ">
-          <li>
-            <a href="#">SERVICE</a>
+          <li class="p-4">
+            <a href="#">SERVICE</a> 
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">SHIPPING</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">RETURN & EXCHANGE</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">CURRENCY</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">CONVERSIONS</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">SIZE-CHART</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">PRIVACY POLICY</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">FAQ</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">CONTACT US</a>
           </li>
         </ul>
       </div>
       <div>
-        <h2 class="font-bold text-5xl tracking-widest">INFORMATION</h2>
+        <h2 class="font-bold text-5xl tracking-widest pb-3">INFORMATION</h2>
         <ul class="font-thin text-xl tracking-widest ">
-          <li>
+          <li class="p-4">
             <a href="#">ABOUT STORETS</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">SASTAINABLILITY</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">AMBASSADOR</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">BECOME AN AFFILIATE</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">LOYALTY PROGRAM</a>
           </li>
-          <li>
+          <li class="p-4">
             <a href="#">STORETS APP</a>
           </li>
 
@@ -136,7 +136,7 @@
         <div class="inline justify-center">
           <div>
             <h1 class="tracking-widest font-thin text-xl">GET 10% OFF ON YOUR FIRST PURCHASE</h1>
-          <input class="bg-gradient-to-r from-blue-50 to-blue-200 mt-10 mb-3" id="email" type="email" value="" placeholder="Enter your email" 
+          <input class="bg-gradient-to-r from-blue-50 to-blue-300 mt-10 mb-3" id="email" type="email" value="" placeholder="Enter your email" 
           name="contact[email]" autocorrect="off" autocapitalize="none">
           </div>
           <div >
@@ -146,7 +146,7 @@
           </div>
 
         </div>
-        <div class=" mt-56 flex  justify-between ">
+        <div class=" mt-72 flex  justify-between ">
           <div>
             <img src="../src/assets/images/socail-media/facebook.png" alt="" class="socail-img">
           </div>
@@ -232,7 +232,7 @@ nav a:first-of-type {
   border: 0;
 }
 #email{
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1rem;
   width: 300px;
   height: 50px;
